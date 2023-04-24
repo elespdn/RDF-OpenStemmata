@@ -1,0 +1,48 @@
+<Segre_1971_Roland_node_omega> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ω" . 
+
+
+<Segre_1971_Roland_node_alpha> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "α" . 
+
+
+<Segre_1971_Roland_node_beta> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "β" . 
+
+
+<Segre_1971_Roland_node_gamma> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ" . 
+
+
+<Segre_1971_Roland_node_delta> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "δ" . 
+
+
+<Segre_1971_Roland_node_deltaprime> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "δ’" . 
+
+
+<Segre_1971_Roland_node_deltasecond> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "δ’’" . 
+
+
+<Segre_1971_Roland_node_1> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "" . 
+
+
+<Segre_1971_Roland_node_2> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "" . 
+
+
+<Segre_1971_Roland_node_3> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "" . 
+
+
+<Segre_1971_Roland_node_4> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "" . 
+
+
+<Segre_1971_Roland_node_5> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "" . 
+
+

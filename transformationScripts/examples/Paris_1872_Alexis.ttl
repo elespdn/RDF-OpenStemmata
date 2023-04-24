@@ -1,0 +1,128 @@
+@prefix stemma-onto: <http://www.semanticweb.org/ontologies/stemma-ontology#> . 
+@prefix frbr: <http://purl.org/vocab/frbr/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+<Paris_1872_Alexis_stemma> a stemma-onto:Stemma . 
+
+
+<Paris_1872_Alexis_node_O> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_x> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "x" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_a> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "a" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_b> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "b" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_z1> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "z1" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_i> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "i" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_Astar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "A*" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_Pstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "P*" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_Sstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "S*" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_Mstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "M*" ;
+			 stemma-onto:isWitnessIn <Paris_1872_Alexis_stemma> . 
+
+
+<Paris_1872_Alexis_node_O> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_x> . 
+
+
+<Paris_1872_Alexis_node_x> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_a> . 
+
+
+<Paris_1872_Alexis_node_L> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "L" . 
+
+
+<Paris_1872_Alexis_node_a> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_L> . 
+
+
+<Paris_1872_Alexis_node_a> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_Astar> . 
+
+
+<Paris_1872_Alexis_node_A> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "A" . 
+
+
+<Paris_1872_Alexis_node_Astar> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_A> . 
+
+
+<Paris_1872_Alexis_node_x> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_b> . 
+
+
+<Paris_1872_Alexis_node_b> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_Pstar> . 
+
+
+<Paris_1872_Alexis_node_P> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "P" . 
+
+
+<Paris_1872_Alexis_node_Pstar> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_P> . 
+
+
+<Paris_1872_Alexis_node_b> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_z1> . 
+
+
+<Paris_1872_Alexis_node_z1> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_i> . 
+
+
+<Paris_1872_Alexis_node_i> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_Sstar> . 
+
+
+<Paris_1872_Alexis_node_S> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "S" . 
+
+
+<Paris_1872_Alexis_node_Sstar> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_S> . 
+
+
+<Paris_1872_Alexis_node_i> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_Mstar> . 
+
+
+<Paris_1872_Alexis_node_M> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "M" . 
+
+
+<Paris_1872_Alexis_node_Mstar> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_M> . 
+
+
+<Paris_1872_Alexis_node_Q> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Q" . 
+
+
+<Paris_1872_Alexis_node_M> stemma-onto:isRelatedTo <Paris_1872_Alexis_node_Q> . 
+
+

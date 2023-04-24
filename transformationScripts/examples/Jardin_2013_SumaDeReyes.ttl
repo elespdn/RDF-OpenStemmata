@@ -1,0 +1,226 @@
+@prefix stemma-onto: <http://www.semanticweb.org/ontologies/stemma-ontology#> . 
+@prefix frbr: <http://purl.org/vocab/frbr/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+<Jardin_2013_SumaDeReyes_stemma> a stemma-onto:Stemma . 
+
+
+<Jardin_2013_SumaDeReyes_node_X> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "X" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_alpha> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "α" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_beta> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "β" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_delta> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "δ" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_gamma> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_lambda> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "λ" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_epsilon> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ε" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_pi> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "π" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_iota> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ι" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_question> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "?" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_questionBis> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "?" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_LlLlr> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Ll-Llr" ;
+			 stemma-onto:isWitnessIn <Jardin_2013_SumaDeReyes_stemma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_X> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_alpha> . 
+
+
+<Jardin_2013_SumaDeReyes_node_X> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_beta> . 
+
+
+<Jardin_2013_SumaDeReyes_node_alpha> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_gamma> . 
+
+
+<Jardin_2013_SumaDeReyes_node_H> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "H" . 
+
+
+<Jardin_2013_SumaDeReyes_node_alpha> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_H> . 
+
+
+<Jardin_2013_SumaDeReyes_node_alpha> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_delta> . 
+
+
+<Jardin_2013_SumaDeReyes_node_MP> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "MP" . 
+
+
+<Jardin_2013_SumaDeReyes_node_gamma> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_MP> . 
+
+
+<Jardin_2013_SumaDeReyes_node_A> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "A" . 
+
+
+<Jardin_2013_SumaDeReyes_node_gamma> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_A> . 
+
+
+<Jardin_2013_SumaDeReyes_node_Aa> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Aa" . 
+
+
+<Jardin_2013_SumaDeReyes_node_A> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_Aa> . 
+
+
+<Jardin_2013_SumaDeReyes_node_delta> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_lambda> . 
+
+
+<Jardin_2013_SumaDeReyes_node_N> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "N" . 
+
+
+<Jardin_2013_SumaDeReyes_node_delta> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_N> . 
+
+
+<Jardin_2013_SumaDeReyes_node_Lo> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Lo" . 
+
+
+<Jardin_2013_SumaDeReyes_node_lambda> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_Lo> . 
+
+
+<Jardin_2013_SumaDeReyes_node_B> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "B" . 
+
+
+<Jardin_2013_SumaDeReyes_node_Lo> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_B> . 
+
+
+<Jardin_2013_SumaDeReyes_node_beta> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_epsilon> . 
+
+
+<Jardin_2013_SumaDeReyes_node_V> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "V" . 
+
+
+<Jardin_2013_SumaDeReyes_node_beta> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_V> . 
+
+
+<Jardin_2013_SumaDeReyes_node_E> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "E" . 
+
+
+<Jardin_2013_SumaDeReyes_node_epsilon> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_E> . 
+
+
+<Jardin_2013_SumaDeReyes_node_epsilon> stemma-onto:contaminates <Jardin_2013_SumaDeReyes_node_question> . 
+
+
+<Jardin_2013_SumaDeReyes_node_O> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O" . 
+
+
+<Jardin_2013_SumaDeReyes_node_epsilon> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_O> . 
+
+
+<Jardin_2013_SumaDeReyes_node_V> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_pi> . 
+
+
+<Jardin_2013_SumaDeReyes_node_V> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_iota> . 
+
+
+<Jardin_2013_SumaDeReyes_node_J> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "J" . 
+
+
+<Jardin_2013_SumaDeReyes_node_iota> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_J> . 
+
+
+<Jardin_2013_SumaDeReyes_node_C> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "C" . 
+
+
+<Jardin_2013_SumaDeReyes_node_iota> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_C> . 
+
+
+<Jardin_2013_SumaDeReyes_node_iota> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_questionBis> . 
+
+
+<Jardin_2013_SumaDeReyes_node_F> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "F" . 
+
+
+<Jardin_2013_SumaDeReyes_node_J> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_F> . 
+
+
+<Jardin_2013_SumaDeReyes_node_questionBis> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_F> . 
+
+
+<Jardin_2013_SumaDeReyes_node_P> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "P" . 
+
+
+<Jardin_2013_SumaDeReyes_node_pi> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_P> . 
+
+
+<Jardin_2013_SumaDeReyes_node_Pa> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Pa" . 
+
+
+<Jardin_2013_SumaDeReyes_node_P> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_Pa> . 
+
+
+<Jardin_2013_SumaDeReyes_node_Pb> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Pb" . 
+
+
+<Jardin_2013_SumaDeReyes_node_P> stemma-onto:isAncestorOf <Jardin_2013_SumaDeReyes_node_Pb> . 
+
+
+<Jardin_2013_SumaDeReyes_node_MP> stemma-onto:contaminates <Jardin_2013_SumaDeReyes_node_LlLlr> . 
+
+
+<Jardin_2013_SumaDeReyes_node_E> stemma-onto:contaminates <Jardin_2013_SumaDeReyes_node_LlLlr> . 
+
+
+<Jardin_2013_SumaDeReyes_node_question> stemma-onto:contaminates <Jardin_2013_SumaDeReyes_node_LlLlr> . 
+
+
+<Jardin_2013_SumaDeReyes_node_J> stemma-onto:contaminates <Jardin_2013_SumaDeReyes_node_LlLlr> . 
+
+

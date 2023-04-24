@@ -1,0 +1,35 @@
+@prefix stemma-onto: <http://www.semanticweb.org/ontologies/stemma-ontology#> . 
+@prefix frbr: <http://purl.org/vocab/frbr/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+<Trisolini_1974_VoyageDeGenes_stemma> a stemma-onto:Stemma . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_x> a stemma-onto:HypotheticalWitness ;
+			 stemma-onto:hasLabel "x" ;
+			 stemma-onto:isWitnessIn <Trisolini_1974_VoyageDeGenes_stemma> . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_A> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "A" . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_x> stemma-onto:isAncestorOf <Trisolini_1974_VoyageDeGenes_node_A> . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_B> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "B" . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_x> stemma-onto:isAncestorOf <Trisolini_1974_VoyageDeGenes_node_B> . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_E> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "E" . 
+
+
+<Trisolini_1974_VoyageDeGenes_node_x> stemma-onto:isAncestorOf <Trisolini_1974_VoyageDeGenes_node_E> . 
+
+

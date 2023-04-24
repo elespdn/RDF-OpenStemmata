@@ -1,0 +1,46 @@
+<Clive_1959_FloridanEtElvide_node_BN10057> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "BN n.a. 10057" . 
+
+
+<Clive_1959_FloridanEtElvide_node_BN1506> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "BN fr. 1506" . 
+
+
+<Clive_1959_FloridanEtElvide_node_Revised> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Revised" . 
+
+
+<Clive_1959_FloridanEtElvide_node_BLNero> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "BM Cotton Nero D ix" . 
+
+
+<Clive_1959_FloridanEtElvide_node_RegLat> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Vatican Reg. lat. 896" . 
+
+
+<Clive_1959_FloridanEtElvide_node_Genappe> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "1459 Genappe MS." . 
+
+
+<Clive_1959_FloridanEtElvide_node_BN10057> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_Revised> . 
+
+
+<Clive_1959_FloridanEtElvide_node_Revised> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_BLNero> . 
+
+
+<Clive_1959_FloridanEtElvide_node_Revised> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_RegLat> . 
+
+
+<Clive_1959_FloridanEtElvide_node_RegLat> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_Genappe> . 
+
+
+<Clive_1959_FloridanEtElvide_node_Genappe> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_BN1506> . 
+
+
+<Clive_1959_FloridanEtElvide_node_Editions> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Editions" . 
+
+
+<Clive_1959_FloridanEtElvide_node_Genappe> stemma-onto:isRelatedTo <Clive_1959_FloridanEtElvide_node_Editions> . 
+
+

@@ -1,0 +1,362 @@
+@prefix stemma-onto: <http://www.semanticweb.org/ontologies/stemma-ontology#> . 
+@prefix frbr: <http://purl.org/vocab/frbr/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+<Warnke_1898_Isopet_stemma> a stemma-onto:Stemma . 
+
+
+<Warnke_1898_Isopet_node_omega> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Ω" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_O> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_X> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "X" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_y> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "y" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_alpha> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "α" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_alphaprime> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "α¹" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_alphasecond> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "α²" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_beta> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "β" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_betaprime> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "β¹" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_betasecond> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "β²" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_gamma> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_gammaprime> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ¹" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_gammasecond> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ²/(L?)" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_nu> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ν" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_iota> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ι" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_tau> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "τ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_pi> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "π" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_upsilon> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "υ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_chi> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "χ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_omicron> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ο" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_sigma> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "σ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_rho> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ϱ" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_Z> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Z(?)" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_Obis> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O" ;
+			 stemma-onto:isWitnessIn <Warnke_1898_Isopet_stemma> . 
+
+
+<Warnke_1898_Isopet_node_omega> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_O> . 
+
+
+<Warnke_1898_Isopet_node_O> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_X> . 
+
+
+<Warnke_1898_Isopet_node_O> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_y> . 
+
+
+<Warnke_1898_Isopet_node_X> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_alpha> . 
+
+
+<Warnke_1898_Isopet_node_Y> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Y" . 
+
+
+<Warnke_1898_Isopet_node_alpha> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_Y> . 
+
+
+<Warnke_1898_Isopet_node_alpha> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_alphaprime> . 
+
+
+<Warnke_1898_Isopet_node_M> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "M" . 
+
+
+<Warnke_1898_Isopet_node_alphaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_M> . 
+
+
+<Warnke_1898_Isopet_node_alphaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_alphasecond> . 
+
+
+<Warnke_1898_Isopet_node_A> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "A" . 
+
+
+<Warnke_1898_Isopet_node_alphasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_A> . 
+
+
+<Warnke_1898_Isopet_node_D> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "D" . 
+
+
+<Warnke_1898_Isopet_node_alphasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_D> . 
+
+
+<Warnke_1898_Isopet_node_y> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_beta> . 
+
+
+<Warnke_1898_Isopet_node_y> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_gamma> . 
+
+
+<Warnke_1898_Isopet_node_beta> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_betaprime> . 
+
+
+<Warnke_1898_Isopet_node_beta> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_betasecond> . 
+
+
+<Warnke_1898_Isopet_node_E> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "E" . 
+
+
+<Warnke_1898_Isopet_node_betaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_E> . 
+
+
+<Warnke_1898_Isopet_node_B> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "B" . 
+
+
+<Warnke_1898_Isopet_node_betaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_B> . 
+
+
+<Warnke_1898_Isopet_node_betasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_nu> . 
+
+
+<Warnke_1898_Isopet_node_N> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "N" . 
+
+
+<Warnke_1898_Isopet_node_nu> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_N> . 
+
+
+<Warnke_1898_Isopet_node_nu> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_iota> . 
+
+
+<Warnke_1898_Isopet_node_I> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "I" . 
+
+
+<Warnke_1898_Isopet_node_iota> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_I> . 
+
+
+<Warnke_1898_Isopet_node_G> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "G" . 
+
+
+<Warnke_1898_Isopet_node_iota> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_G> . 
+
+
+<Warnke_1898_Isopet_node_betasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_Z> . 
+
+
+<Warnke_1898_Isopet_node_betasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_tau> . 
+
+
+<Warnke_1898_Isopet_node_tau> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_omicron> . 
+<Warnke_1898_Isopet_node_tau> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_omicron> . 
+
+
+<Warnke_1898_Isopet_node_T> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "T" . 
+
+
+<Warnke_1898_Isopet_node_tau> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_T> . 
+
+
+<Warnke_1898_Isopet_node_Q> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Q" . 
+
+
+<Warnke_1898_Isopet_node_tau> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_Q> . 
+
+
+<Warnke_1898_Isopet_node_T> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_G> . 
+<Warnke_1898_Isopet_node_T> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_G> . 
+
+
+<Warnke_1898_Isopet_node_T> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_Y> . 
+<Warnke_1898_Isopet_node_T> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_Y> . 
+
+
+<Warnke_1898_Isopet_node_gamma> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_gammaprime> . 
+
+
+<Warnke_1898_Isopet_node_gamma> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_gammasecond> . 
+
+
+<Warnke_1898_Isopet_node_H> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "H" . 
+
+
+<Warnke_1898_Isopet_node_gammaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_H> . 
+
+
+<Warnke_1898_Isopet_node_gammaprime> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_pi> . 
+
+
+<Warnke_1898_Isopet_node_P> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "P" . 
+
+
+<Warnke_1898_Isopet_node_pi> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_P> . 
+
+
+<Warnke_1898_Isopet_node_pi> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_upsilon> . 
+
+
+<Warnke_1898_Isopet_node_W> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "W" . 
+
+
+<Warnke_1898_Isopet_node_upsilon> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_W> . 
+
+
+<Warnke_1898_Isopet_node_upsilon> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_chi> . 
+
+
+<Warnke_1898_Isopet_node_K> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "K" . 
+
+
+<Warnke_1898_Isopet_node_chi> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_K> . 
+
+
+<Warnke_1898_Isopet_node_C> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "C" . 
+
+
+<Warnke_1898_Isopet_node_chi> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_C> . 
+
+
+<Warnke_1898_Isopet_node_C> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_Obis> . 
+<Warnke_1898_Isopet_node_C> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_Obis> . 
+
+
+<Warnke_1898_Isopet_node_chi> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_omicron> . 
+
+
+<Warnke_1898_Isopet_node_R> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "R" . 
+
+
+<Warnke_1898_Isopet_node_omicron> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_R> . 
+<Warnke_1898_Isopet_node_omicron> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_R> . 
+
+
+<Warnke_1898_Isopet_node_omicron> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_Obis> . 
+
+
+<Warnke_1898_Isopet_node_F> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "F" . 
+
+
+<Warnke_1898_Isopet_node_omicron> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_F> . 
+
+
+<Warnke_1898_Isopet_node_gammasecond> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_sigma> . 
+
+
+<Warnke_1898_Isopet_node_S> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "S" . 
+
+
+<Warnke_1898_Isopet_node_sigma> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_S> . 
+
+
+<Warnke_1898_Isopet_node_V> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "V" . 
+
+
+<Warnke_1898_Isopet_node_S> stemma-onto:isHypotheticallyContaminatedBy <Warnke_1898_Isopet_node_V> . 
+<Warnke_1898_Isopet_node_S> stemma-onto:hypotheticallyContaminates <Warnke_1898_Isopet_node_V> . 
+
+
+<Warnke_1898_Isopet_node_sigma> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_rho> . 
+
+
+<Warnke_1898_Isopet_node_rho> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_R> . 
+
+
+<Warnke_1898_Isopet_node_rho> stemma-onto:isAncestorOf <Warnke_1898_Isopet_node_V> . 
+
+

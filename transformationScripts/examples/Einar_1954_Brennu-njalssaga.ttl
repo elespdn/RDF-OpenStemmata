@@ -1,0 +1,245 @@
+@prefix stemma-onto: <http://www.semanticweb.org/ontologies/stemma-ontology#> . 
+@prefix frbr: <http://purl.org/vocab/frbr/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+<Einar_1954_Brennu-njalssaga_stemma> a stemma-onto:Stemma . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Astar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*A" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*X" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Vstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*V" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Ystar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*Y" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Zstar> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*Z" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_y1star> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*y₁" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x1star> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*x₁" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*x₂" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> a stemma-onto:HypotheticalWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "*x₃" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_K2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "K2" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_R2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "R2" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_R4> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "R4" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_O3> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O3" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_gamma> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "γ" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_delta> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "δ" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_epsilon> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ε" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_zeta> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "ζ" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_S2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "S2" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Sv1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Sv1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Ga1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Ga1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_R1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "R1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_R3> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "R3" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_K1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "K1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Bb1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Bb1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Bb3> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Bb3" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_O1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O1" ;
+			 stemma-onto:isWitnessIn <Einar_1954_Brennu-njalssaga_stemma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Astar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_Xstar> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Astar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_Vstar> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Vstar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_Ystar> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Vstar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_Zstar> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_M> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "M" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Ystar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_y1star> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Ga2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Ga2" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_O2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "O2" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Bb2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Bb2" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Gr> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Gr" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_S1> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "S1" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Sv2> a stemma-onto:ExistingWitness , frbr:Expression ;
+			 stemma-onto:hasLabel "Sv2" . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_x1star> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_K2> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_R2> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_R4> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_Xstar> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_O3> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x1star> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_x2star> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x1star> stemma-onto:isAncestorOf <Einar_1954_Brennu-njalssaga_node_x3star> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_gamma> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_delta> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_epsilon> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_zeta> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_S2> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_Sv1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x2star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_Ga1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_R1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_R3> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_K1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_Bb1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_Bb3> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:isHypotheticallyAncestorOf <Einar_1954_Brennu-njalssaga_node_O1> . 
+
+
+<Einar_1954_Brennu-njalssaga_node_x3star> stemma-onto:contaminates <Einar_1954_Brennu-njalssaga_node_O2> . 
+
+
