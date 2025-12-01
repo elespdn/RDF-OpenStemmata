@@ -1,0 +1,45 @@
+digraph {
+    omega[color="grey", label="ω"]
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    delta[color="grey", label="δ"]
+    deltaUn[color="grey", label="δ¹"]
+    deltaDeux[color="grey", label="δ²"]
+    deltaTrois[color="grey", label="δ³"]
+    gamma[color="grey", label="γ"]
+    epsilon[color="grey", label="ε"]
+    Fr[color="grey"]
+    Z[color="grey"]
+    TA[color="grey"]
+    VA[color="grey"]
+    VB[color="grey"]
+    l[color="grey"]
+    L[color="grey"]
+
+    omega -> alpha;
+    omega -> beta;
+
+    alpha -> gamma;
+    gamma -> V;
+    alpha -> delta;
+    delta -> Fr;
+    Fr -> deltaDeux;
+    deltaDeux -> l;
+    deltaDeux -> F;
+    l -> L;
+
+    delta -> deltaUn;
+    deltaUn -> deltaTrois;
+    deltaTrois -> TA;
+    deltaTrois -> VA;
+    deltaTrois -> VB
+    VA -> P;
+    P -> R [dir=none, style="dashed"];
+
+    beta -> epsilon;
+    epsilon -> Z;
+
+    epsilon -> VB [dir=none, style="dashed"];
+    VB -> R [dir=none, style="dashed"];
+    epsilon -> R [dir=none, style="dashed"];
+}

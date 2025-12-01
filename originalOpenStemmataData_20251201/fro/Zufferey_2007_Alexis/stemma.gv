@@ -1,0 +1,33 @@
+digraph {
+    omegaUn [color="grey", label="ω₁"]
+    omegaDeux [color="grey", label="ω₂"]
+    omegaTrois [color="grey", label="ω₃"]
+    EmpytOne [color="grey", label=""]
+    EmpytTwo [color="grey", label=""]
+    P2 [label="P₂"]
+    M2 [label="M₂"]
+
+    omegaUn -> omegaDeux;
+    omegaUn -> a;
+    omegaDeux -> omegaTrois;
+
+    a -> A;
+    a -> L;
+
+    omegaDeux -> V;
+
+    omegaTrois -> b;
+    omegaTrois -> EmpytOne;
+    omegaTrois -> i;
+    EmpytOne -> P2;
+    EmpytOne -> P;
+    i -> S;
+    i -> EmpytTwo;
+    EmpytTwo -> M;
+    EmpytTwo -> M2;
+
+    a -> i[style="dashed"];
+    b -> L[style="dashed"];
+
+
+}
