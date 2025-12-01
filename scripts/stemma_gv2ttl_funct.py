@@ -72,7 +72,7 @@ def gv2ttl(gvSourceFile):
     #gvFileName = gvSourceFile.split('.')[0]
     gvFileName = gvSourceFile.split('/')[-2]
     sourceLanguage = gvSourceFile.split('/')[-3]
-    stemma_instance = "<" + gvFileName + '_stemma> a stemma-onto:Stemma ; \n\t\t\t <stemma-onto:hasOpenStemmataEntry> "https://github.com/OpenStemmata/database/tree/main/data/' + sourceLanguage + '/' + gvFileName + '" ; \n\t\t\t <dct:language> "' + sourceLanguage + '" . \n\n\n'
+    stemma_instance = "<" + gvFileName + '_stemma> a stemma-onto:Stemma ; \n\t\t\t stemma-onto:hasOpenStemmataEntry "https://github.com/OpenStemmata/database/tree/main/data/' + sourceLanguage + '/' + gvFileName + '" ; \n\t\t\t dct:language "' + sourceLanguage + '" . \n\n\n'
 
     # create the list of witnesses, the list of nodeLines and the list of edgeLines (in order to first process nodeLines)
     witnessList = []

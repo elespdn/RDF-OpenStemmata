@@ -14,7 +14,7 @@ for root, dirs, files in os.walk('../originalOpenStemmataData_20230422'):
 print(len(allGvFiles))
 
 # apply stemma_gv2ttl.py to all files in the list
-t = open('../openStemmataData.ttl', 'w')
+t = open('../openStemmataData_20230422.ttl', 'w')
 # create the prefixes
 prefixes = "@prefix stemma-onto: <http://example.com/stemma-onto#> . \n@prefix frbr: <http://purl.org/vocab/frbr/core#> . \n@prefix dct: <http://purl.org/dc/terms/> . \n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . \n\n\n"
 t.write(prefixes)
